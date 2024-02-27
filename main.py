@@ -12,7 +12,7 @@ class Running(ABC):
     def run(self):
         pass
 class Animal(ABC):
-
+    pass
 class Ostrich(Animal, Running):
     def run(self):
         print("Ostrich is running")
